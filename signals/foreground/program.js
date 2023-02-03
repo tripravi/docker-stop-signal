@@ -10,7 +10,6 @@ var server = http.createServer(function (req, res) {
 console.log('server started');
 
 var signals = {
-  'SIGINT': 2,
   'SIGTERM': 15
 };
 
